@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(115, 110, 110);
+    background-color: rgb(167, 165, 165);
     display: flex;
     justify-content: center;
     
@@ -14,7 +14,7 @@ body{
 main{
     background-color: white;
     width: 93%;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 main h1{
