@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(115, 110, 110);
+    display: flex;
+    justify-content: center;
+    
+}
+
+main{
+    background-color: white;
+    width: 93%;
+    margin-top: 15px;
+}
+
+main h1{
+    text-align: center;
+}
+
+main figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main figure p{
+    text-align: center;
+    font-size: 12px;
+}
+
+main figure img{
+    width: 460px;
+    height: 350px;
+    margin-left: 12%;
+}
+
+main figure figcaption{
+    text-align: center;
+    font-size: 12px;
+}
+
+main h2{
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+main p{
+    text-align: center;
+    fo
+}
