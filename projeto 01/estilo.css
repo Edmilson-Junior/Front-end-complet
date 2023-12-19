@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(167, 165, 165);
+    background-color: rgba(212, 201, 201, 0.945);
     display: flex;
     justify-content: center;
     
@@ -20,6 +20,7 @@ main{
 
 main h1{
     text-align: center;
+    border-bottom: 1px solid  rgb(167, 165, 165);
 }
 
 main figure{
@@ -37,7 +38,6 @@ main figure p{
 main figure img{
     width: 460px;
     height: 350px;
-    margin-left: 12%;
 }
 
 main figure figcaption{
@@ -48,6 +48,7 @@ main figure figcaption{
 main h2{
     font-size: 30px;
     padding-left: 25px;
+    margin-top: 10px;
 }
 
 main p{
@@ -56,13 +57,35 @@ main p{
 }
 
 main article{
-    background-color: rgb(49, 49, 83);
+    background-color: rgba(112, 112, 168, 0.748);
     font-size: 18px;
     font-family: 'Times New Roman', Times, sans-serif;
     color: white;
     padding: 10px;
     height: 75px;
-    text-align: center;
+    text-align: start;
+    margin: 5px;
+}
+
+main dl{}
+
+main dl dt{
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main dl dd{
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+main dl dd ul{
+    padding-left: 45px;
+}
+
+main .figura2{
+    margin: 5px;
 }
 
 
