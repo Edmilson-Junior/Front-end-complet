@@ -7,9 +7,6 @@
 
 body{
     background-color: rgb(245, 225, 228);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 header{
@@ -19,12 +16,27 @@ header{
     font-size: 17px;
     padding: 15px;
     background-color: blueviolet;
+    position: absolute;
 }
 
 form{
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+form p{
+    border-bottom: 1px solid gray;
+}
+
+form p .h1{
+    border-bottom: 2px solid blueviolet;
+    background-color: aqua;
+    width: 80px;
+    font-size: 9px;
 }
 
