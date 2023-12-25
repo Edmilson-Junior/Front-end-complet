@@ -1,8 +1,4 @@
-h1{
-    color: #ff0000;
-}
-
-i{
-    width: 10px;
-    height: 10px;
+*{
+    margin: 0px;
+    padding: 0px;
 }
