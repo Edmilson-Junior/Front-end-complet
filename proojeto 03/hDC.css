@@ -1,4 +1,96 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+.cabecalho{
+    height: 100px;
+    background-color: rgb(47, 47, 158);
+    position: relative;
+}
+
+.cabecalho img{
+    width: 100px;
+    height: 90px;
+    margin-top: 5px;
+}
+
+.cabecalho .barra-nav{
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.cabecalho .barra-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.cabecalho .barra-nav ul li{
+    padding: 10px;
+}
+
+.cabecalho .barra-nav ul .li-entrar{
+    background-color: green;
+    border-radius: 4px;
+}
+
+.section1{
+    background-image: url('Midia/pexels-piccinng-3125171.jpg');
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 h1{
+    color: white;
+}
+
+.section1 p{
+    color: rgb(192, 200, 222);
+    font-size: 18px;
+}
+
+.section2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section2 ul li{
+    width: 350px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2 ul li .i1{
+    color: rgb(122, 240, 122);
+}
+
+.section2 ul li .i2{
+    color: rgb(215, 39, 39);
+}
+
+.section2 ul li .i3{
+    color: rgb(222, 175, 36);
 }
