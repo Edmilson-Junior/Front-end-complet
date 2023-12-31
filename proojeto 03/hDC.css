@@ -79,9 +79,14 @@
     width: 350px;
     text-align: center;
     padding: 15px;
+    font-weight: bold;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.section2 ul li p{
+    font-weight: normal;
 }
 
 .section2 ul li .i1{
