@@ -70,9 +70,9 @@
 .section2 ul{
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .section2 ul li{
@@ -90,13 +90,52 @@
 }
 
 .section2 ul li .i1{
+    font-size: 3rem;
     color: rgb(122, 240, 122);
 }
 
 .section2 ul li .i2{
+    font-size: 3rem;
     color: rgb(215, 39, 39);
 }
 
 .section2 ul li .i3{
+    font-size: 3rem;
     color: rgb(222, 175, 36);
+}
+
+.section3{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.section3 h2{
+    font-size: 3rem;
+}
+
+.section3 p{
+    font-size: 20px;
+}
+
+.section3 .plano1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.section3 .plano1 .plano{
+    flex: 1;
+    max-width: 275px;
+    margin: 0px 20px;
+}
+
+.section3 .plano1 .plano ul{
+    padding: 0px;
+}
+
+.section3 .plano1 .plano ul li{
+    list-style-type: none;
+    height: 50px;
+    line-height: 50px;
 }
