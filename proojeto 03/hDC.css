@@ -138,4 +138,15 @@
     list-style-type: none;
     height: 50px;
     line-height: 50px;
+    background-color: #e3e9ea;
+    color: #333;
+}
+
+.section3 .plano1 .plano .preco{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    color: white;
+    text-align: center;
 }
