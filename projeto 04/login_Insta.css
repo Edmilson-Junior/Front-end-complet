@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #FAFAFAFA;
+}
+
+main{
+    display: flex;
+    margin-top: 30px;
+}
+
+picture, .formulario{
+    flex: 1 1 0;
+    width: 50%;
+}
+
+picture{
+    text-align: right;
+}
+
+picture{
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 380px;
+}
+
+.formulario{
+    text-align: center;
+}
