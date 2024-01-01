@@ -29,6 +29,7 @@
     flex-direction: row;
     list-style-type: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .cabecalho .barra-nav ul li{
@@ -42,7 +43,7 @@
 
 .section1{
     background-image: url('Midia/pexels-piccinng-3125171.jpg');
-    background-position: center;
+    background-position: center;background-size: cover;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -149,4 +150,121 @@
     background-color: #2cc762;
     color: white;
     text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 20px;
+    position: relative;
+}
+
+.section3 .plano1 .plano .nomePlano{
+    height: 100px;
+    text-transform: uppercase;
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+}
+
+.section3 .plano1 .plano .btnSaiba-mais{
+    background-color: #2cc762;
+    color: #fff;
+    font-size: 20px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.section3 .plano1 .plano .recomendado{
+    background-color: #f45c57;
+}
+
+.section4{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.section4 h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.section4 p{
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.section4 form input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.section4 form input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.section4 form input[type="submit"]{
+    background-color: #2cc762;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .9;
+}
+
+.section4 form input[type="submit"]:hover{
+    opacity: .1;
+}
+
+.section5{
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.section5 h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section5 p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.section5 input, .section5 textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.section5 textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.section5 input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc762;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 100px;
 }
