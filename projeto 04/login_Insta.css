@@ -30,6 +30,8 @@ picture{
     max-width: 380px;
 }
 
+/*Aqui comeca a estilizacao do formulario*/
+
 .formulario{
     text-align: center;
 }
@@ -37,7 +39,7 @@ picture{
 .formulario form{
     background-color: #fff;
     border: 1px solid #bdbdbd;
-    width: 350px;
+    width: 390px;
     height: 100%;
     margin-right: 30px;
 }
@@ -89,6 +91,7 @@ picture{
     margin-right: -25px;
 }
 */
+
 
 .formulario form .ou {
     display: flex;
@@ -160,4 +163,47 @@ picture{
 .formulario form .baixar a img{
     width: 120px;
 }
+
+footer{
+    background-color: rgba(229, 239, 239, 0.744);
+    margin-top: 110px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer nav{
+    width: 100%;
+}
+
+footer nav ul{
+    margin: 10px auto;
+    width: 70%;
+    height: 150px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer nav ul li{
+    display: flex;
+    margin: 2px 0px;
+}
+
+footer nav ul li a{
+    font-size: large;
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+footer p{
+    font-size: larger;
+    color: #bdbdbd;
+}
+
 
