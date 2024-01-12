@@ -114,6 +114,22 @@ a:hover{
     gap: 0.5rem;
 }
 
+#sidebar #tags #tags-container a{
+    background-color: #ddd;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+}
+
+footer{
+    border-top: 2px solid #ddd;
+    padding: 3rem;
+    text-align: center;
+}
+
+footer h2, footer p{
+    margin-bottom: 1rem;
+}
+
 
 
 
