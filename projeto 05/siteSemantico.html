@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +35,7 @@
                 <p class="descricao">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nisi numquam dignissimos maxime nobis est alias mollitia magni. Aut earum voluptatum quod nesciunt natus quo hic tenetur voluptatibus magnam possimus?
                 </p>
+                <p class="autor">Mateus Batista</p>
                 <a href="#">Ler mais</a>
             </article>
 
@@ -46,6 +47,7 @@
                 <p class="descricao">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nisi numquam dignissimos maxime nobis est alias mollitia magni. Aut earum voluptatum quod nesciunt natus quo hic tenetur voluptatibus magnam possimus?
                 </p>
+                <p class="autor">Mateus Batista</p>
                 <a href="#">Ler mais</a>
             </article>
 
@@ -57,13 +59,55 @@
                 <p class="descricao">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nisi numquam dignissimos maxime nobis est alias mollitia magni. Aut earum voluptatum quod nesciunt natus quo hic tenetur voluptatibus magnam possimus?
                 </p>
+                <p class="autor">Mateus Batista</p>
                 <a href="#">Ler mais</a>
             </article>
         </main>
 
-        <aside>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h3>Busca</h3>
+                <form>
+                    <input type="text" placeholder="Pesquise no blog">
 
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+
+            <section id="Categorias">
+                <h3>Categorias</h3>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Paisagens</a></li>
+                        <li><a href="#">Aventura</a></li>
+                        <li><a href="#">Viagens longas</a></li>
+                        <li><a href="#">Florestas</a></li>
+                        <li><a href="#">Cachueitas</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="tags">
+                <h3>Tags</h3>
+
+                <div id="tags-container">
+                    <a href="#">Lifestyle</a>
+                    <a href="#">Viagem</a>
+                    <a href="#">Barco</a>
+                    <a href="#">Trilha</a>
+                    <a href="#">Tirolesa</a>
+                    <a href="#">Rafting</a>
+                    <a href="#">Parapente</a>
+                </div>
+            </section>
         </aside>
     </div>
+
+    <footer>
+        <h2>Blog</h2>
+        <p>Os melhores registos de aventura</p>
+        <p>2023 &copy; Ho de codar</p>
+    </footer>
 </body>
 </html>
