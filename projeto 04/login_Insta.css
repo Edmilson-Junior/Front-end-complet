@@ -206,4 +206,199 @@ footer p{
     color: #bdbdbd;
 }
 
+@media(max-width: 1055px){
+    main{
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .div{
+        display: none;
+    }
+    
+    picture{
+        display: none;
+    }
+    
+    /*Aqui comeca a estilizacao do formulario*/
+    
+    .formulario{
+        height: 500px;
+        text-align: center;
+    }
+    
+    .formulario form{
+        background-color: #fff;
+        border: 1px solid #bdbdbd;
+        width: 60%;
+        height: 100%;
+        margin: 5px auto;
+    }
+    
+    .formulario form #instagram2{
+        width: 175px;
+        height: 51px;
+        margin: 30px auto 12px;
+    }
+    
+    .formulario form input{
+        display: block;
+        font-size: 12px;
+        padding: 12px 9px;
+        background-color: #FAFAFAFA;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+        width: 78%;
+        margin: 5px auto;
+    }
+    
+    .formulario form input[type="submit"]{
+        background-color: #b2dffc;
+        color: #fff;
+        margin-top: 5px;
+        height: 30px;
+        font-size: 13px;
+        padding: 0;
+        font-weight: bold;
+    }
+    /*
+    .formulario form .linha-ou{
+        position: relative;
+    }
+    
+    .formulario form .linha-ou .span{
+        border-top: 1px solid #dbdbdb;
+        width: 268px;
+        margin: 25px auto 35px;
+    }
+    
+    .formulario form .linha-ou .span span{
+        position: absolute;
+        text-transform: uppercase;
+        color: #bbb;
+        background-color: #fff;
+        top: -6px;
+        width: 50px;
+        margin-right: -25px;
+    }
+    */
+    
+    
+    .formulario form .ou {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .formulario form .ou hr{
+        width: 35%;
+        height: 1px;
+        margin: 0px 5px;
+    }
+    
+    .formulario form .conta-facebook{
+        margin-bottom: 25px;
+    }
+    
+    .formulario form .conta-facebook #face_login a{
+        text-decoration: none;
+        color: #385185;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .formulario form .conta-facebook #face_login a img{
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+    }
+    
+    .formulario form .conta-facebook #face_login span{
+        font-weight: bold;
+        font-size: 13px;
+        margin-top: 1px;
+    }
+    
+    .formulario form .Esqueceu{
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: #bdbdbd;
+    }
+    
+    .formulario form .criar-conta p{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    
+    .formulario form .criar-conta p a{
+        text-decoration: none;
+        color: #52b7fa;
+    }
+    
+    .formulario form .baixar div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .formulario form .baixar p{
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    
+    .formulario form .baixar div a{
+        margin: 10px;
+    }
+    
+    .formulario form .baixar a img{
+        width: 120px;
+    }
+    
+    footer{
+        background-color: rgba(229, 239, 239, 0.744);
+        margin-top: 110px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    footer nav{
+        width: 100%;
+    }
+    
+    footer nav ul{
+        margin: 10px auto;
+        width: 70%;
+        height: 150px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    footer nav ul li{
+        display: flex;
+        margin: 2px 0px;
+    }
+    
+    footer nav ul li a{
+        font-size: large;
+        text-decoration: none;
+        color: #bdbdbd;
+    }
+    
+    footer p{
+        font-size: larger;
+        color: #bdbdbd;
+    }
+    
+}
+
 
